@@ -1,0 +1,230 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Remove built-in form typography styles */
+input,
+button,
+textarea,
+select {
+    font: inherit;
+    border-width: 0;
+}
+
+/* 
+    Avoid text overflows 
+    for very long words that is longer than the width of the parent container itself 
+*/
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    overflow-wrap: break-word;
+}
+
+/* Remove Defalut Styling */
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Image Default Values */
+
+img {
+    width: 100%;
+    object-fit: cover;
+}
+
+/* 
+    Add accessible line-height
+    Improve text rendering 
+*/
+body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+}
+
+/*
+  Allow percentage-based heights in the application
+*/
+html,
+body {
+    height: 100%;
+}
+
+/****  APP CSS START  ****/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,600;0,800;0,900;1,200;1,400;1,600;1,800;1,900&display=swap');
+
+:root {
+    --bg-color: #1f1f38;
+    --bg-color-variant: #2c2c6c;
+    --prim-color: #4db5ff;
+    --prim-color-var: rgba(77, 181, 255, 0.4);
+    --white-color: #fff;
+    --trans-white-color: rgba(255, 255, 255, 0.6);
+
+    --navbar-bg-color: #030324a1;
+    --navbar-icon-bg-color: #4db5ffba;
+
+    /* Transiton */
+    /* transition-property: all;
+    transition-duration: 250ms;
+    transition-timing-function: ease-in-out; */
+    --transition: all 250ms ease-in-out;
+
+    /* Container Width*/
+    --section-width-lg: 75%;
+    --section-width-md: 86%;
+    --section-width-sm: 90%;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    height: 100vh;
+    background: var(--bg-color);
+    color: var(--white-color);
+    font-family: 'Poppins', sans-serif;
+    background-image: url(./assets/bg-texture.png);
+}
+
+.v-2rem {
+    min-height: 2rem;
+}
+
+.v-3rem {
+    min-height: 3rem;
+}
+
+.section {
+    min-height: 100vh;
+    margin-top: 8rem;
+    width: var(--section-width-lg);
+    /* Center section to body*/
+    margin-left: auto;
+    margin-right: auto;
+
+    /* Center section elements to section*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.section_intro {
+    font-size: 0.8rem;
+    font-weight: 400;
+    letter-spacing: 1.5px;
+
+    margin-bottom: 0.8rem;
+}
+
+.section_title {
+    font-size: 2rem;
+    font-weight: 600;
+
+    margin-bottom: 3.5rem;
+}
+
+.section_tagline {
+    font-size: 0.9rem;
+    font-weight: 400;
+    letter-spacing: 2px;
+    color: var(--trans-white-color);
+
+}
+
+button {
+    padding: 0.8rem 2rem;
+    color: var(--bg-color);
+    background-color: var(--prim-color);
+
+    border-radius: 0.5rem;
+    border-width: 1px;
+    border-style: solid;
+    border-color: var(--prim-color);
+
+    cursor: pointer;
+
+    transition: var(--transition);
+}
+
+button:hover {
+    background-color: var(--bg-color);
+    color: var(--prim-color);
+}
+
+.sec_btn {
+    background-color: var(--bg-color);
+    color: var(--prim-color);
+}
+
+.sec_btn:hover {
+    color: var(--white-color);
+    background-color: var(--prim-color-var);
+}
+
+.icon{
+    font-size: 1.4rem;
+    color: var(--prim-color);
+}
+
+
+/* Media Quiry */
+@media screen and (max-width: 1024px) {
+    .section {
+        min-height: auto;
+        margin-top: 6rem;
+        width: var(--section-width-md);
+    }
+
+    .section_intro {
+        margin-bottom: 0.4rem;
+    }
+
+    .section_title {
+        margin-bottom: 2rem;
+    }
+
+    .icon{
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .section {
+        min-height: auto;
+        margin-top: 4rem;
+        width: var(--section-width-sm);
+    }
+
+    .section_intro {
+        margin-bottom: 0.2rem;
+    }
+
+    .section_title {
+        margin-bottom: 2rem;
+    }
+
+    .icon{
+        font-size: 1rem;
+    }
+}

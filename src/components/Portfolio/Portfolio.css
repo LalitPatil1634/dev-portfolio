@@ -1,0 +1,47 @@
+.portfolio_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+}
+
+.portfolio_card {
+    background-color: #2c2c6c;
+    border-radius: 2rem;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.portfolio_img {
+    height: 12rem;
+}
+
+.portfolio_content {
+    padding: 2rem 2rem;
+}
+
+.portfolio_title {
+    text-justify: center;
+    margin-bottom: 1rem;
+}
+
+.portfolio_btns {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+@media screen and (max-width: 1024px) {
+    .portfolio_grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .portfolio_grid {
+        grid-template-columns: 1fr;
+    }
+}

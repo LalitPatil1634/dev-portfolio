@@ -4,10 +4,10 @@ import { PortfolioCard } from "./PortfolioCards"
 import "./Portfolio.css"
 
 //Assets
-import img_01 from "../../assets/portfolio1.jpg"
-import img_02 from "../../assets/portfolio2.jpg"
-import img_03 from "../../assets/portfolio3.jpg"
-import img_04 from "../../assets/portfolio4.jpg"
+import img_01 from "../../assets/SS1.png"
+import img_02 from "../../assets/SS2.png"
+import img_03 from "../../assets/SS3.png"
+import img_04 from "../../assets/SS4.png"
 import img_05 from "../../assets/portfolio5.png"
 import img_06 from "../../assets/portfolio6.jpg"
 
@@ -24,42 +24,42 @@ export const Portfolio = () => {
 
 const fakeProjects = [
     {
-        title: "Crypto Currency Dashboard & Financial Visualization",
+        title: "Amazon Clone using HTML and CSS",
         id: 0,
         image: img_01,
-        githubRepo: "https://github.com/",
-        liveDemo: ""
+        githubRepo: "https://github.com/LalitPatil1634/amazon-prime-clone",
+        liveDemo: "https://astonishing-kataifi-739cce.netlify.app"
     },
     {
-        title: "Crypto Currency Dashboard & Financial Visualization",
+        title: "Adventure Website",
         id: 2,
         image: img_02,
-        githubRepo: "https://github.com/",
-        liveDemo: ""
+        githubRepo: "https://github.com/LalitPatil1634/Adventure-Website",
+        liveDemo: "https://thunderous-cassata-a8ebb9.netlify.app"
     },
     {
-        title: "Crypto Currency Dashboard & Financial Visualization",
+        title: "Time Tracking Dashboard",
         id: 3,
         image: img_03,
-        githubRepo: "https://github.com/",
-        liveDemo: ""
+        githubRepo: "https://github.com/LalitPatil1634/time-tracking-dashboard-project",
+        liveDemo: "https://effortless-muffin-657f6c.netlify.app"
     },
     {
-        title: "Crypto Currency Dashboard & Financial Visualization",
+        title: "Portfolio",
         id: 4,
         image: img_04,
-        githubRepo: "https://github.com/",
-        liveDemo: ""
+        githubRepo: "https://github.com/LalitPatil1634/dev-portfolio",
+        liveDemo: "https://sweet-crumble-c9364c.netlify.app/"
     },
     {
-        title: "Crypto Currency Dashboard & Financial Visualization",
+        title: "Demo",
         id: 5,
         image: img_05,
         githubRepo: "https://github.com/",
         liveDemo: ""
     },
     {
-        title: "Crypto Currency Dashboard & Financial Visualization",
+        title: "Demo",
         id: 6,
         image: img_06,
         githubRepo: "https://github.com/",

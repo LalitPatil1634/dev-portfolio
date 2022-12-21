@@ -34,10 +34,14 @@ export const About = () => {
           </div>
           <div className="v-2rem"></div>
           <div className="about_para">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
-            adipisci veritatis sequi laudantium, libero vero deleniti! Dolorem,
-            magnam totam dolor deleniti minus culpa illo expedita autem porro
-            perferendis, et impedit.
+            Hi, My name is Lalit Patil. I am looking for a job role in
+            Front-End. I am a self-learner, curious, and enthusiastic about
+            learning new things. Curiosity is what makes a person think
+            differently. I think learning even a small thing as it seems can
+            make a difference. I passionately combine good design, technology,
+            and innovation in all my projects, which I like to accompany from
+            the first idea to release. Currently, I'm focused on backend
+            development.
           </div>
           <div className="v-2rem"></div>
           <button>Let's Talk</button>

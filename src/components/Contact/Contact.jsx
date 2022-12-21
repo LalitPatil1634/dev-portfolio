@@ -12,22 +12,24 @@ export const Contact = () => {
       <div className="contact">
         <div className="contact_card_container">
           <div className="contact_card">
-            <MdMarkEmailRead className="icon" />
+            <a href="lalitlp1634@yahoo.com">
+              <MdMarkEmailRead className="icon" />
+            </a>
             <div className="contact_card_title">Email</div>
             <div className="contact_card_subtitle">lalitlp1634@yahoo.com</div>
             <div className="contact_card_tagline">Send a Message</div>
           </div>
           <div className="contact_card">
-            <FaLinkedinIn className="icon" />
+            <a href="https://www.linkedin.com/in/lalit-patil1634">
+              <FaLinkedinIn className="icon" />
+            </a>
             <div className="contact_card_title">LinkedIn</div>
-            <div className="contact_card_subtitle">lalitlp1634@yahoo.com</div>
-            <div className="contact_card_tagline">Send a Message</div>
           </div>
           <div className="contact_card">
-            <FaTwitter className="icon" />
+            <a href="https://twitter.com/lalit_lp98">
+              <FaTwitter className="icon" />
+            </a>
             <div className="contact_card_title">Twitter</div>
-            <div className="contact_card_subtitle">lalitlp1634@yahoo.com</div>
-            <div className="contact_card_tagline">Send a Message</div>
           </div>
         </div>
         <div className="contact_form">

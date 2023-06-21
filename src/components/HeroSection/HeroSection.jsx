@@ -1,8 +1,7 @@
 import React from "react";
 import { FaGithubSquare, FaLinkedin } from "react-icons/fa";
-import "./HeroSection.css"
-
-
+import "./HeroSection.css";
+import Resume from "../../assets/Resume1.pdf";
 import pass from "../../assets/Pass.jpg";
 
 export const HeroSection = () => {
@@ -14,7 +13,14 @@ export const HeroSection = () => {
       <div className="v-3rem"></div>
 
       <div className="hero_btns">
-        <button className="sec_btn">Download CV</button>
+        <a
+          href={Resume}
+          download="Lalit-Resume"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <button className="sec_btn">Download CV</button>
+        </a>
         <button>Let's Talk</button>
       </div>
       <div className="v-3rem"></div>

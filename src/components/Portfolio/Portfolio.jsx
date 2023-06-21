@@ -17,12 +17,12 @@ export const Portfolio = () => {
         <div className="section_intro">My Recent Work</div>
         <div className="section_title">Portfolio</div>
         <div className="portfolio_grid">
-            {fakeProjects.map(item => <PortfolioCard {...item} key={item.id} />)}
+            {selfProjects.map(item => <PortfolioCard {...item} key={item.id} />)}
         </div>
     </div>
 }
 
-const fakeProjects = [
+const selfProjects = [
     {
         title: "Amazon Clone using HTML and CSS",
         id: 0,
@@ -52,11 +52,11 @@ const fakeProjects = [
         liveDemo: "https://sweet-crumble-c9364c.netlify.app/"
     },
     {
-        title: "Demo",
+        title: "Expense Management System",
         id: 5,
         image: img_05,
-        githubRepo: "https://github.com/",
-        liveDemo: ""
+        githubRepo: "https://github.com/LalitPatil1634/Expense-Management-System",
+        liveDemo: "https://extinct-teal-stockings.cyclic.app/"
     },
     {
         title: "Demo",

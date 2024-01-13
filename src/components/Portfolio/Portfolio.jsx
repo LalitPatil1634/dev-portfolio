@@ -9,7 +9,7 @@ import img_02 from "../../assets/SS2.png"
 import img_03 from "../../assets/SS3.png"
 import img_04 from "../../assets/SS4.png"
 import img_05 from "../../assets/portfolio5.png"
-import img_06 from "../../assets/portfolio6.jpg"
+import img_06 from '../../assets/1.png'
 
 
 export const Portfolio = () => {
@@ -24,11 +24,11 @@ export const Portfolio = () => {
 
 const selfProjects = [
     {
-        title: "Amazon Clone using HTML and CSS",
+        title: "E-commerce App",
         id: 0,
-        image: img_01,
-        githubRepo: "https://github.com/LalitPatil1634/amazon-prime-clone",
-        liveDemo: "https://astonishing-kataifi-739cce.netlify.app"
+        image: img_06,
+        githubRepo: "https://github.com/LalitPatil1634/E-commerce-app",
+        liveDemo: "https://sore-singlet-fly.cyclic.app/"
     },
     {
         title: "Adventure Website",
@@ -59,10 +59,10 @@ const selfProjects = [
         liveDemo: "https://extinct-teal-stockings.cyclic.app/"
     },
     {
-        title: "Demo",
-        id: 6,
-        image: img_06,
-        githubRepo: "https://github.com/",
-        liveDemo: ""
+        title: "Amazon Clone using HTML and CSS",
+        id: 0,
+        image: img_01,
+        githubRepo: "https://github.com/LalitPatil1634/amazon-prime-clone",
+        liveDemo: "https://astonishing-kataifi-739cce.netlify.app"
     },
 ]

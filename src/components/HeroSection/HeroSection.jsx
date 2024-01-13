@@ -1,7 +1,7 @@
 import React from "react";
 import { FaGithubSquare, FaLinkedin } from "react-icons/fa";
 import "./HeroSection.css";
-import Resume from "../../assets/Resume1.pdf";
+import Resume from "../../assets/Resume.pdf";
 import pass from "../../assets/Pass.jpg";
 
 export const HeroSection = () => {
